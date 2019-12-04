@@ -11,8 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtil {
 
-	public static String TESTDATA_SHEET_PATH = "/Users/ilhanturkmen/Documents/workspace/TestNGFramework/src/main"
-			+ "/java/com/hubspot/testdata/HubSpotTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "/Users/can/Desktop/SiliconeLabs/HubSpotTestData.xlsx ";
 
 	public static Workbook book;
 	public static Sheet sheet;
