@@ -63,7 +63,7 @@ public class LoginPageTest {
 	}
 	@Test(priority=4,description = "Rustu valid user name", enabled=true)
 	public void loginTest3() throws InterruptedException{
-		loginPage.doLogin("mrty_58@hotmail.com", "1456.Rtyzn");
+		loginPage.doLogin("noemail@hotmail.com", "Test1234");
 		log.info("Login testlogs : correct user and correct pass");
 		Thread.sleep(3000);}
 	@AfterMethod
