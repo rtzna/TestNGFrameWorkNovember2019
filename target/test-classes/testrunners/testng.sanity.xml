@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Hub Spot Test Sanity Suite" verbose="3">
+
+	<listeners>
+		<listener class-name="com.hubspot.listeners.ExtentReportListener" />
+	</listeners>
+	<test name="HubSpot Sanity Test">
+		<classes>
+
+
+			<class name="com.hubspot.tests.LoginPageTest" />
+			<class name="com.hubspot.tests.HomePageTest" />
+
+
+
+		</classes>
+	</test>
+</suite>
+<!-- XML Why we use :It is html file and u can run all classes in the xml 
+	file. U can at all listener. if you need you can customize it -->
